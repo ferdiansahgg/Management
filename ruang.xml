@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!--lokasi-->
+        <record id="view_management_ruang_tree" model="ir.ui.view">
+            <field name="name">ruang.tree</field>
+            <field name="model">management.ruang</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="ruang">
+                    <field name="name"/>
+                    <field name="lokasi"/>
+                    <field name="no_ruang"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

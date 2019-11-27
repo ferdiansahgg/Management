@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <!--lokasi-->
+        <record id="view_management_lokasi_tree" model="ir.ui.view">
+            <field name="name">lokasi.tree</field>
+            <field name="model">management.lokasi</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="lokasi">
+                    <field name="name"/>
+                    <field name="no_lokasi"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

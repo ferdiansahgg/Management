@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <!--user data-->
+        <record id="view_management_userdata_tree" model="ir.ui.view">
+            <field name="name">userdata.tree</field>
+            <field name="model">management.userdata</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="userdata">
+                    <field name="name"/>
+                    <field name="identitas"/>
+                    <field name="namalengkap"/>
+                    <field name="level"/>
+                    <field name="blokir"/>
+                    <field name="pemandu"/>
+                    <field name="pengelola"/>
+                    <field name="tempadmin"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

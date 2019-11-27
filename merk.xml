@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <!--Merk-->
+        <record id="view_management_merk_tree" model="ir.ui.view">
+            <field name="name">merk.tree</field>
+            <field name="model">management.merk</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="merk">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

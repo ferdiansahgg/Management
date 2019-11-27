@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!--lokasi-->
+        <record id="view_management_subruang_tree" model="ir.ui.view">
+            <field name="name">subruang.tree</field>
+            <field name="model">management.subruang</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="subruang">
+                    <field name="name"/>
+                    <field name="ruang"/>
+                    <field name="no_subruang"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
